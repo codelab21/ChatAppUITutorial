@@ -11,6 +11,13 @@
 		E5E25B302A9C994F000AA633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B2F2A9C994F000AA633 /* ContentView.swift */; };
 		E5E25B322A9C9950000AA633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E25B312A9C9950000AA633 /* Assets.xcassets */; };
 		E5E25B352A9C9950000AA633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E25B342A9C9950000AA633 /* Preview Assets.xcassets */; };
+		E5E25B3C2A9C997D000AA633 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B3B2A9C997D000AA633 /* BottomBar.swift */; };
+		E5E25B452A9C9B5D000AA633 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B442A9C9B5D000AA633 /* StatusView.swift */; };
+		E5E25B472A9C9B75000AA633 /* StatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B462A9C9B75000AA633 /* StatusManager.swift */; };
+		E5E25B492A9C9CD8000AA633 /* StatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B482A9C9CD8000AA633 /* StatusCardView.swift */; };
+		E5E25B4B2A9C9E5E000AA633 /* StatusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B4A2A9C9E5E000AA633 /* StatusListView.swift */; };
+		E5E25B4F2A9C9F3B000AA633 /* MyStatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B4E2A9C9F3B000AA633 /* MyStatusCardView.swift */; };
+		E5E25B512A9CA123000AA633 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B502A9CA123000AA633 /* InfoTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E5E25B2F2A9C994F000AA633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5E25B312A9C9950000AA633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E25B342A9C9950000AA633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5E25B3B2A9C997D000AA633 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		E5E25B442A9C9B5D000AA633 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		E5E25B462A9C9B75000AA633 /* StatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManager.swift; sourceTree = "<group>"; };
+		E5E25B482A9C9CD8000AA633 /* StatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCardView.swift; sourceTree = "<group>"; };
+		E5E25B4A2A9C9E5E000AA633 /* StatusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusListView.swift; sourceTree = "<group>"; };
+		E5E25B4E2A9C9F3B000AA633 /* MyStatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatusCardView.swift; sourceTree = "<group>"; };
+		E5E25B502A9CA123000AA633 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,14 @@
 		E5E25B2C2A9C994F000AA633 /* ChatAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				E5E25B412A9C9A66000AA633 /* Status */,
+				E5E25B402A9C9A63000AA633 /* Calls */,
+				E5E25B3F2A9C9A61000AA633 /* Communities */,
+				E5E25B3E2A9C9A55000AA633 /* Settings */,
+				E5E25B3D2A9C9A4C000AA633 /* Chats */,
 				E5E25B2D2A9C994F000AA633 /* ChatAppUIApp.swift */,
 				E5E25B2F2A9C994F000AA633 /* ContentView.swift */,
+				E5E25B3B2A9C997D000AA633 /* BottomBar.swift */,
 				E5E25B312A9C9950000AA633 /* Assets.xcassets */,
 				E5E25B332A9C9950000AA633 /* Preview Content */,
 			);
@@ -65,6 +85,63 @@
 				E5E25B342A9C9950000AA633 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5E25B3D2A9C9A4C000AA633 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		E5E25B3E2A9C9A55000AA633 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E5E25B3F2A9C9A61000AA633 /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		E5E25B402A9C9A63000AA633 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		E5E25B412A9C9A66000AA633 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				E5E25B422A9C9B3C000AA633 /* ViewModel */,
+				E5E25B432A9C9B49000AA633 /* Components */,
+				E5E25B442A9C9B5D000AA633 /* StatusView.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		E5E25B422A9C9B3C000AA633 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E5E25B462A9C9B75000AA633 /* StatusManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E5E25B432A9C9B49000AA633 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5E25B482A9C9CD8000AA633 /* StatusCardView.swift */,
+				E5E25B4A2A9C9E5E000AA633 /* StatusListView.swift */,
+				E5E25B4E2A9C9F3B000AA633 /* MyStatusCardView.swift */,
+				E5E25B502A9CA123000AA633 /* InfoTextView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E25B4F2A9C9F3B000AA633 /* MyStatusCardView.swift in Sources */,
+				E5E25B492A9C9CD8000AA633 /* StatusCardView.swift in Sources */,
 				E5E25B302A9C994F000AA633 /* ContentView.swift in Sources */,
 				E5E25B2E2A9C994F000AA633 /* ChatAppUIApp.swift in Sources */,
+				E5E25B512A9CA123000AA633 /* InfoTextView.swift in Sources */,
+				E5E25B472A9C9B75000AA633 /* StatusManager.swift in Sources */,
+				E5E25B4B2A9C9E5E000AA633 /* StatusListView.swift in Sources */,
+				E5E25B452A9C9B5D000AA633 /* StatusView.swift in Sources */,
+				E5E25B3C2A9C997D000AA633 /* BottomBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
