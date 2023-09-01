@@ -12,6 +12,7 @@
 		E5B8230A2A9F55550077698D /* CallListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B823092A9F55550077698D /* CallListView.swift */; };
 		E5B8230C2A9F55A70077698D /* CallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8230B2A9F55A70077698D /* CallCardView.swift */; };
 		E5B8230E2A9F5AEC0077698D /* CallLinkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8230D2A9F5AEC0077698D /* CallLinkCard.swift */; };
+		E5D4C3E22AA1FB2D00FD3C8F /* CommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D4C3E12AA1FB2D00FD3C8F /* CommunitiesView.swift */; };
 		E5E25B2E2A9C994F000AA633 /* ChatAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B2D2A9C994F000AA633 /* ChatAppUIApp.swift */; };
 		E5E25B302A9C994F000AA633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E25B2F2A9C994F000AA633 /* ContentView.swift */; };
 		E5E25B322A9C9950000AA633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E25B312A9C9950000AA633 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		E5B823092A9F55550077698D /* CallListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallListView.swift; sourceTree = "<group>"; };
 		E5B8230B2A9F55A70077698D /* CallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCardView.swift; sourceTree = "<group>"; };
 		E5B8230D2A9F5AEC0077698D /* CallLinkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLinkCard.swift; sourceTree = "<group>"; };
+		E5D4C3E12AA1FB2D00FD3C8F /* CommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesView.swift; sourceTree = "<group>"; };
 		E5E25B2A2A9C994F000AA633 /* ChatAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E25B2D2A9C994F000AA633 /* ChatAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUIApp.swift; sourceTree = "<group>"; };
 		E5E25B2F2A9C994F000AA633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		E5E25B3F2A9C9A61000AA633 /* Communities */ = {
 			isa = PBXGroup;
 			children = (
+				E5D4C3E12AA1FB2D00FD3C8F /* CommunitiesView.swift */,
 			);
 			path = Communities;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				E5E25B452A9C9B5D000AA633 /* StatusView.swift in Sources */,
 				E5B823082A9F53F60077698D /* CallsManager.swift in Sources */,
 				E5E25B3C2A9C997D000AA633 /* BottomBar.swift in Sources */,
+				E5D4C3E22AA1FB2D00FD3C8F /* CommunitiesView.swift in Sources */,
 				E5B8230C2A9F55A70077698D /* CallCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
